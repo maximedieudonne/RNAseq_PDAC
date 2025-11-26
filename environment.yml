@@ -1,0 +1,38 @@
+
+---
+
+## 2. `environment.yml`
+
+```yaml
+name: pdac-multiomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - r-base>=4.3
+  - r-essentials
+  - r-tidyverse
+  - r-ggplot2
+  - r-data.table
+  - r-seurat
+  - r-devtools
+  - r-survival
+  - r-survminer
+  - bioconductor-tcgabiolinks
+  - bioconductor-deseq2
+  - bioconductor-edger
+  - bioconductor-limma
+  - bioconductor-gsva
+  - bioconductor-clusterprofiler
+  - bioconductor-org.hs.eg.db
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - seaborn
+      - lifelines
+      - umap-learn
